@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;500;700&display=swap');
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-cabeçalho {
+    margin-left: 20px;
+    color:#17233D;
+    cursor: pointer;
+
+}
+.link-cabeçalho:hover {
+    color: #4CB538;
+    
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    border: 1px;
+    border: 1px solid #4CB538;
+    background: linear-gradient(0deg, #4CB538, #6FBF44);
+    color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+button:hover {
+    opacity: .8;
+}
+button:active {
+    opacity: .4;
+}
+
+img {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+
+}
+section {
+    display: inline-block;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 110px;
+    
+}
+
+h1 {
+    width: 582px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color:#161A49 ;
+    
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    padding-right: 60px;
+    margin: 50px 0;
+    color:#17233D ;
+    opacity: .8;
+
+}
+
+.a {
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-top: 60px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #6FBF44;
+    cursor: pointer;
+}
+.a:hover {
+    opacity: .8;
+}
+.a:active {
+    opacity: .4;
+}
+
+@media screen and (max-width: 700px){
+    header {
+        margin: 0;
+        padding: 0;
+    }
+    .link-cabeçalho {
+        display: none;
+    }
+    button {
+        width: 91px;
+        height: 31px;
+        margin-top: 10px;
+        margin-left: 70%;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-align: center;   
+    }
+    section {
+        
+        display: block;
+        padding: 60px;
+        margin: 20px 0 0 0;
+    }
+    img {
+        width: 100%;
+        height:auto ;
+        padding: 25px;
+        margin: 0;
+        display: block;
+        position: absolute;
+        margin-top: 410px;
+    }
+    h1 {
+        width: auto;
+        height: auto;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        text-align: center;
+
+    }
+    p {
+        width: auto;
+        height: auto;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 20px 0;
+        padding: 0;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    .a {
+        margin-left: 30%;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 1px;
+        text-align: center; 
+    }
+}
+    
+
