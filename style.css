@@ -88,7 +88,7 @@ p {
 }
 
 .a {
-    
+
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -161,11 +161,7 @@ p {
     }
     .a {
         margin-left: 30%;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 27px;
-        letter-spacing: 1px;
-        text-align: center; 
+        
     }
 }
     
